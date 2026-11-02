@@ -1,0 +1,21 @@
+{
+  "name": "meet-arnold-expired-pills",
+  "version": "1.0.0",
+  "description": "High-retention 2D animated film in Remotion (Meet Arnold style)",
+  "scripts": {
+    "start": "remotion preview src/index.ts",
+    "build": "remotion render src/index.ts ExpiredMedicineMaster out/expired-medicine-arnold.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.242",
+    "@remotion/shapes": "4.0.242",
+    "lucide-react": "^0.300.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "4.0.242"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.2.2"
+  }
+}
